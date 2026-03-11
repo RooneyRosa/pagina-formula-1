@@ -6,7 +6,7 @@ body {
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     line-height: 1.5;
-    background-color: #000;
+    background-color: #111;
     color: #f0f0f0;
 }
 
@@ -36,13 +36,13 @@ main {
     margin: 0 auto;
     padding: 2rem 1rem;
 }
-
+/*caixa das equipes*/
 section {
     margin-bottom: 2rem;
     padding: 1.5rem;
     background-color: #111;
     border-radius: 0.5rem;
-    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 12px rgba(255, 255, 255, 0.4);
 }
 
 section h2 {
@@ -76,33 +76,41 @@ footer {
 }
 
 .team-mercedes {
+    background-color: rgba(0, 210, 189, 0.514);
     border-left: 0.5rem solid #00d2be;
 }
 
 .team-ferrari {
-    border-left: 0.5rem solid #ff2800;
+    background-color: rgba(236, 52, 19, 0.356);
+    border-left: 0.5rem solid #ec3413;
 }
 
 .team-redbull {
+    background-color: rgba(6, 0, 239, 0.18);
     border-left: 0.5rem solid #0600ef;
 }
 
 .team-mclaren {
+    background-color: rgba(255, 111, 0, 0.18);
     border-left: 0.5rem solid #ff6f00;
 }
 
 .team-williams {
+    background-color: rgba(0, 82, 204, 0.18);
     border-left: 0.5rem solid #0052cc;
 }
 
 .team-alpine {
+    background-color: rgba(0, 82, 204, 0.18);
     border-left: 0.5rem solid #0052cc;
 }
 
 .team-alphatauri {
+    background-color: rgba(26, 30, 60, 0.25);
     border-left: 0.5rem solid #1a1e3c;
 }
 
 .team-astonmartin {
+    background-color: rgba(0, 85, 45, 0.18);
     border-left: 0.5rem solid #00552d;
 }
