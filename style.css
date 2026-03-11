@@ -1,0 +1,108 @@
+/* Estilos básicos para a página de equipes de Fórmula 1 */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.5;
+    background-color: #000;
+    color: #f0f0f0;
+}
+
+header {
+    padding: 2rem 1rem;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+header .f1-logo {
+    width: 30rem;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.25rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #111;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.4);
+}
+
+section h2 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 0.95rem;
+    color: #bbb;
+}
+
+/* Layout com escudos e cores das equipes */
+.team-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.team-logo {
+    width: 3rem;
+    height: 3rem;
+    flex-shrink: 0;
+    object-fit: contain;
+    border-radius: 0.25rem;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.team-mercedes {
+    border-left: 0.5rem solid #00d2be;
+}
+
+.team-ferrari {
+    border-left: 0.5rem solid #ff2800;
+}
+
+.team-redbull {
+    border-left: 0.5rem solid #0600ef;
+}
+
+.team-mclaren {
+    border-left: 0.5rem solid #ff6f00;
+}
+
+.team-williams {
+    border-left: 0.5rem solid #0052cc;
+}
+
+.team-alpine {
+    border-left: 0.5rem solid #0052cc;
+}
+
+.team-alphatauri {
+    border-left: 0.5rem solid #1a1e3c;
+}
+
+.team-astonmartin {
+    border-left: 0.5rem solid #00552d;
+}
